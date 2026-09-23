@@ -1,0 +1,43 @@
+-- 숫자 함수
+
+SELECT STU_NAME, MOD(STU_HEIGHT, 2) AS 홀짝
+FROM STUDENT;
+
+SELECT MOD(11, 2)
+FROM DUAL;
+
+-- ROUND (반올림)
+SELECT ROUND(12.3456, 2)
+FROM DUAL;
+
+-- CEIL (올림)
+SELECT CEIL(123.001)
+FROM DUAL;
+
+-- FLOOR (내림)
+SELECT FLOOR(123.999)
+FROM DUAL;
+
+-- TRUNC (날림, 특정위치까지 출력)
+SELECT TRUNC(12.34567, 2)
+FROM DUAL;
+
+-- MOD (나머지)
+SELECT MOD(10, 2), MOD(11, 2)
+FROM DUAL;
+
+-- SIGN (숫자 부호를 반환 -> 양수면 1, 음수면 -1, 0이면 0)
+SELECT SIGN(10)
+FROM DUAL;
+
+-- ABS(절대값)
+SELECT ABS(-10)
+FROM DUAL;
+
+-- POWER (제곱)
+SELECT POWER(2, 10)
+FROM DUAL;
+
+
+
+
